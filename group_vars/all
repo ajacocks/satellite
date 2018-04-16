@@ -13,7 +13,7 @@ satellite_domain: ajacocks-demo.com
 satellite_hostname: satellite.ajacocks-demo.com
 satellite_ip: 192.168.126.2
 satellite_rdns: 126.168.192.in-addr.arpa
-satellite_dhcp range: "192.168.126.150 192.168.126.200"
+satellite_dhcp_range: "192.168.126.150 192.168.126.200"
 satellite_manifest_filename: manifest-ajacocks-sales-6.3.zip
 satellite_activation_key: satellite
 satellite_nic: eth0

@@ -1,6 +1,6 @@
 ---
 #Laptop Configure section#
-laptop_hostname: laptop.rnelson-demo.com
+laptop_hostname: laptop.ajacocks-demo.com
 laptop_ip: 192.168.126.1
 
 
@@ -9,9 +9,11 @@ satellite_admin_username: admin
 satellite_admin_password: redhat
 satellite_organization: RedHat
 satellite_location: RDU
-satellite_domain: rnelson-demo.com
-satellite_hostname: satellite.rnelson-demo.com
-satellite_manifest_filename: manifest-rnelson-sales-6.3.zip
+satellite_domain: ajacocks-demo.com
+satellite_hostname: satellite.ajacocks-demo.com
+satellite_manifest_filename: manifest-ajacocks-sales-6.3.zip
+satellite_activation_key: satellite
+rhn_org_id: 1234
 
 #not sure how to make this easy yet. Hammer doesn't do searching by subscription name. It only attaches by 'subscription-id'
 development_subscription_ids:
